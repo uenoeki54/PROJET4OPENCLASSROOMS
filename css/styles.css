@@ -1,6 +1,7 @@
 /* Variables */
 body {
   background-color: #F3F3F3;
+  margin: 0px;
 }
 
 header {
@@ -52,11 +53,15 @@ header h1 {
   font-family: "Roboto";
   font-style: normal;
   text-align: center;
+  padding: 30px 0px 60px 0px;
+  width: 100%;
 }
 .exploration h2 {
   font-weight: 700;
-  font-size: 40px;
-  line-height: 47px;
+  font-size: 24px;
+  line-height: 28px;
+  width: 275px;
+  margin: auto;
 }
 .exploration p {
   font-weight: 300;
@@ -78,4 +83,90 @@ header h1 {
   font-size: 16px;
   line-height: 19px;
   margin: 13px;
+}
+
+.fonctionnement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 25px;
+  background: #FFFFFF;
+  padding: 48px 0px 40px 20px;
+}
+.fonctionnement h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0px;
+}
+.fonctionnement .circle {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 15px;
+  top: 545px;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 20px;
+  background-color: #9356DC;
+  color: white;
+}
+.fonctionnement .circle--deux {
+  top: 645px;
+}
+.fonctionnement .circle--trois {
+  top: 745px;
+}
+.fonctionnement .boutons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24.92px;
+}
+.fonctionnement .boutons button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0px;
+  width: 322.49px;
+  height: 72.38px;
+  background: #F7F7F7;
+  -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.fonctionnement .boutons button i {
+  font-size: 1.5em;
+  color: #7E7E7E;
+  width: 20px;
+}
+.fonctionnement .boutons button .fa-store {
+  color: #9356DC;
+}
+.fonctionnement .boutons button span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
